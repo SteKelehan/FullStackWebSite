@@ -1,0 +1,24 @@
+{
+  "name": "fullstackwebsite",
+  "version": "1.0.0",
+  "description": "Going to need need two package managers: ###Backend This project uses npm: (run npm install) once that is complete run npm init in the project folder and answer the q's to then generated your package.json file ###Front End This porject uses bower: (run npm bower) You then create a bower.rc file and write where you would like bower to isntall its files. Once that is complete run bower init in the project folder ans q's and it will create a bower.json file ###DB This project is going to use the Mongo db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteKelehan/FullStackWebSite.git"
+  },
+  "author": "Ste Kelehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteKelehan/FullStackWebSite/issues"
+  },
+  "homepage": "https://github.com/SteKelehan/FullStackWebSite#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
